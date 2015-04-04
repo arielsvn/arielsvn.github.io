@@ -88,11 +88,20 @@ and
 ### Zoo information
 
 ```js
-	// zoo.information.js
-	zoo.information = {
-		name: "My Awesome Zoo",
-		address: "52 Zoo Lane, ZA1 2AP"
-	};
+// zoo.information.js
+zoo.information = {
+	name: "My Awesome Zoo",
+	address: "52 Zoo Lane, ZA1 2AP"
+};
+```
+
+```html
+<dl>
+	<dt class="citation" id="ref0">[0]</dt>
+	<dd><a href="http://www.yuiblog.com/blog/2006/06/01/global-domination/">Global Domination</a></dd>
+	<dt class="citation" id="ref1">[1]</dt>
+	<dd><a href="http://stackoverflow.com/questions/3410984/javascript-namespace">Over-engineered namespacing solutions on Stackoverflow</a></dd>
+</dl>
 ```
 
 **Note**: Do not be concerned about having too many files; overly complex namespace hiearchies should be avoided and separate files should be concatenated into one for performance.
