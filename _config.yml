@@ -1,0 +1,9 @@
+name: Ariel Rodriguez, Software Engineer
+markdown: redcarpet
+highlighter: pygments
+permalink: /articles/:title/
+exclude: [arielsvn.sublime-project, arielsvn.sublime-workspace]
+url: http://arielsvn.github.io
+include: ['_pages']
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]

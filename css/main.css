@@ -1,0 +1,507 @@
+/**********************************************************
+* Fonts
+**********************************************************/
+
+/* droid sans */
+
+@font-face {
+    font-family: 'droid sans';
+    src: url('../fonts/DroidSans-webfont.eot');
+    src: url('../fonts/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DroidSans-webfont.woff') format('woff'),
+         url('../fonts/DroidSans-webfont.ttf') format('truetype'),
+         url('../fonts/DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'droid sans';
+    src: url('../fonts/DroidSans-Bold-webfont.eot');
+    src: url('../fonts/DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DroidSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/DroidSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/DroidSans-Bold-webfont.svg#droid_sansbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* droid serif */
+
+@font-face {
+    font-family: 'droid serif';
+    src: url('../fonts/DroidSerif-webfont.eot');
+    src: url('../fonts/DroidSerif-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DroidSerif-webfont.woff') format('woff'),
+         url('../fonts/DroidSerif-webfont.ttf') format('truetype'),
+         url('../fonts/DroidSerif-webfont.svg#droid_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'droid serif';
+    src: url('../fonts/DroidSerif-Bold-webfont.eot');
+    src: url('../fonts/DroidSerif-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DroidSerif-Bold-webfont.woff') format('woff'),
+         url('../fonts/DroidSerif-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/DroidSerif-Bold-webfont.svg#droid_serifbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'droid serif';
+    src: url('../fonts/DroidSerif-Italic-webfont.eot');
+    src: url('../fonts/DroidSerif-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DroidSerif-Italic-webfont.woff') format('woff'),
+         url('../fonts/DroidSerif-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/DroidSerif-Italic-webfont.svg#droid_serifitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'droid serif';
+    src: url('../fonts/DroidSerif-BoldItalic-webfont.eot');
+    src: url('../fonts/DroidSerif-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DroidSerif-BoldItalic-webfont.woff') format('woff'),
+         url('../fonts/DroidSerif-BoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/DroidSerif-BoldItalic-webfont.svg#droid_serifbold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/**********************************************************
+* Color Turquoise: #1abc9c / Midnight blue: #2c3e50 / Clouds: #ecf0f1
+**********************************************************/
+
+/**********************************************************
+* General
+**********************************************************/
+
+body,
+ul, li,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'droid serif', helvetica, arial;
+	-webkit-font-smoothing: antialiased;
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'droid sans';
+    margin-top: 0;
+    margin-bottom: 0.2em;
+    color: #2c3e50;
+}
+
+h2 {
+    font-family: 'droid sans';
+	font-size: 1.6em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+    color: #2c3e50;
+}
+
+h3 {
+	font-size: 1.2em;
+	margin-top: 1em;
+    font-family: 'droid sans';
+	margin-bottom: 0.5em;
+    color: #2c3e50;
+}
+
+p {
+    font-size: 1em;
+	margin-bottom: 1.5em;
+	margin-top: 1em;
+	color: #2c3e50;
+}
+
+p.share {
+    margin-top: 40px;
+}
+
+p.share a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #39d;
+    border-radius: 4px;
+}
+
+dt {
+    color: #2c3e50;
+}
+
+blockquote {
+    background-color: #ecf0f1;
+    padding: 1px 10px 1px 10px;
+    margin: 20px;
+    border-left: 5px solid #2c3e50;
+
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+ .ui {
+    background-color: #ecf0f1;
+    padding: 10px;
+ }
+
+a:link {
+	color: #2c3e50;
+	-webkit-transition:color .1s;
+    transition: color .1s;
+}
+
+a:visited {
+    color: #788A9C;
+}
+
+a:hover {
+	color: #1abc9c;
+}
+
+a img {
+    border: none;
+}
+
+#container {
+	margin: 0 auto;
+}
+
+#content {
+	padding: 0px 20px 30px;
+}
+
+#content p {
+	line-height: 1.7em;
+}
+
+#header {
+	border-bottom: 1px solid #ebebeb;
+	margin-bottom: 10px;
+}
+
+#headerInner {
+    padding: 14px 20px;
+    overflow: hidden;
+}
+
+#header #logo {
+    float: left;
+}
+
+#header #logo .avatar {
+    float: left;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+@media (max-width: 400px) {
+    .avatar {
+        display: none;
+    }
+}
+
+#header h1 {
+    font-family: 'droid sans';
+    font-size: 0.9em;
+    font-weight: normal;
+    float: left;
+    text-transform: uppercase;
+    margin-top: 6px;
+}
+
+#header h1 a {
+    display: block;
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+#header h1 span {
+    position: absolute;
+    left: -9999em;
+    top: 0;
+}
+
+#content ul {
+	margin-left: 20px;
+}
+
+#content li {
+	color: #2c3e50;
+}
+
+.callout {
+    background-color: #BDF1E7;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+}
+
+
+
+/**********************************************************
+* Navigation
+**********************************************************/
+
+#nav {
+    float: right;
+    margin-top: 6px;
+}
+
+#nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+#nav ul li {
+    float: left;
+    margin-left: 20px;
+    font-family: 'droid sans';
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+#nav ul li a {
+    color: #2c3e50;
+    text-decoration: none;
+    display: block;
+}
+
+#nav ul li a:hover {
+    color: #1abc9c;
+}
+
+#nav ul li a.active {
+    border-bottom: 3px solid #1abc9c;
+}
+
+@media(max-width: 340px) {
+    #nav ul li {
+        margin-left: 10px;
+    }
+}
+
+/**********************************************************
+* Secondary navigation
+**********************************************************/
+
+#secondaryNavigation {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#breadcrumb {
+    float: left;
+    margin-top: 10px;
+    font-family: 'droid sans';
+    font-size: 0.9em;
+}
+
+#breadcrumb span {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.citation:target {
+    background: #FFFF00;
+    transition: background 1s linear;
+}
+
+/**********************************************************
+* Footer
+**********************************************************/
+
+#footer {
+    border-top: 1px solid #ebebeb;
+}
+
+#footerInner {
+	padding: 20px;
+	overflow: hidden;
+}
+
+#footer p {
+	margin-bottom: 10px;
+    margin-top: 0;
+	font-size: 0.8em;
+    font-family: 'droid sans';
+}
+
+#footer .social a {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+#footer a img {
+	vertical-align: bottom;
+	border: none;
+}
+
+/**********************************************************
+* Newsletter
+**********************************************************/
+
+.newsletter {
+
+}
+
+.newsletterInner {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.newsletter h2 {
+    margin-top: 0;
+}
+
+.newslettter form {
+    overflow: hidden;
+}
+
+.newsletter label {
+    float: left;
+    font-family: arial;
+    padding: 12px 16px 10px 0;
+}
+
+.newsletter .email {
+    border: 1px solid #ccc;
+    padding: 10px;
+    float: left;
+    font-size: inherit;
+    margin-right: 20px;
+}
+
+.newsletter .submit {
+    border: none;
+    font-size: 1em;
+    background-color: #2c3e50;
+    color: #fff;
+    float: left;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: arial;
+}
+
+/**********************************************************
+* Article list
+**********************************************************/
+
+#articles {
+
+}
+
+
+#articleList ol {
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+#articleList li {
+	margin-left: 0;
+	margin-bottom: 20px;
+}
+
+#articleList a {
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+#articleList .date {
+    display: inline-block;
+}
+
+.date {
+	font-size: 0.8em;
+	color: #2c3e50;
+}
+
+.wordCount {
+	font-style: italic;
+	font-size: 0.8em;
+	color: #2c3e50;
+}
+
+.readArticles,
+.readArticles:link,
+.readArticles:visited {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #1abc9c;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.readArticles:hover {
+    background-color: #1AAF8F;
+    color: #fff;
+}
+
+#pg-home #content {
+	padding-top: 15px;
+}
+
+.newsletter {
+    background-color: #F3F7F8;
+}
+
+/**********************************************************
+* Post
+**********************************************************/
+
+pre {
+	font-family: Monaco,'Courier New','Courier',monospace;
+	font-size: 16px;
+	background-color: #ecf0f1;
+	margin-bottom: 20px;
+	padding: 20px;
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+p code {
+	font-size: 1.3em;
+}
+
+#content .meta {
+	font-size: 1em;
+	margin-top: 0;
+	line-height: 1em;
+}
+
+#article li {
+    line-height: 1.7em;
+}
+
+@media (min-width: 720px) {
+
+	#content,
+	#headerInner,
+	#footerInner{
+		width: 720px;
+		margin: 0 auto;
+	}
+
+}

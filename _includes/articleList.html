@@ -1,0 +1,12 @@
+<div id="articleList">
+	<ol class="articles">
+		{% for post in site.posts %}
+			<li class="article">
+				<h3><a class="title" href="{{ post.url }}">{{ post.title }}</a></h3>
+				<div class="meta">
+                    <span class="wordCount">{{ post.content | number_of_words }} words</span>
+				</div>
+			</li>
+		{% endfor %}
+	</ol>
+</div>
