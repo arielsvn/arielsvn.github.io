@@ -7,4 +7,4 @@ permalink: /contact/
 
 # Contact
 
-[Email me](mailto:adambsilver+blog@gmail.com) or find me at the usual social places in the site footer.
+[Email me](mailto:arielsvn@gmail.com) or find me at the usual social places in the site footer.
