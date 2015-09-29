@@ -2,7 +2,7 @@
 layout: post
 title:  "Modify Bootstrap's default grid system padding"
 date:   2015-09-28 09:00:01
-categories: css, bootstrap3
+categories: bootstrap3
 ---
 
 Using Bootstrap column grid is extremely helpful, however they come with a default `30px` margin between each column. Although this padding can be modified by changing the variable `@grid-gutter-width` sometimes its useful to be able to use different values of this padding.
