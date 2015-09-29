@@ -9,7 +9,7 @@ Using Bootstrap column grid is extremely helpful, however they come with a defau
 
 That's what this mixin does, allows the creation of a class to modify the padding within columns inside a row.
 
-```less
+```css
 .row-padding(@padding) {
     margin-left: -@padding/2;
     margin-right: -@padding/2;
@@ -34,7 +34,7 @@ That's what this mixin does, allows the creation of a class to modify the paddin
 
 Using it is pretty straightforward, just declare the class name and include the mixin.
 
-```less
+```css
 .row--xs {
 	.row-padding(10px);
 }
