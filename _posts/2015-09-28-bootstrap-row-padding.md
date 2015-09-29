@@ -5,7 +5,7 @@ date:   2015-09-28 09:00:01
 categories: bootstrap3
 ---
 
-Using Bootstrap column grid is extremely helpful, however they come with a default `30px` margin between each column. Although this padding can be modified by changing the variable `@grid-gutter-width` sometimes its useful to be able to use different values of this padding.
+Using Bootstrap column grid is extremely helpful, however they come with a default `30px` margin between each column. This padding can be modified by changing the variable `@grid-gutter-width`, although sometimes its useful to be able to use different values of this padding.
 
 That's what this mixin does, allows the creation of a class to modify the padding within columns inside a row.
 
@@ -35,17 +35,26 @@ That's what this mixin does, allows the creation of a class to modify the paddin
 Using it is pretty straightforward, just declare the class name and include the mixin.
 
 ```css
-.row--xs {
+.row--small {
 	.row-padding(10px);
+}
+
+.row--large {
+	.row-padding(50px);
 }
 ```
 
-And then on the html, add it as usual
+And then on the html, add on the `.row` element as a modifier of this class.
 
 ```html
-<div class="row row--xs">
+<div class="row row--small">
 	<div class="col-sm-4"></div>
 	<div class="col-sm-4"></div>
 	<div class="col-sm-4"></div>
+</div>
+
+<div class="row row--large">
+	<div class="col-md-6"></div>
+	<div class="col-md-6"></div>
 </div>
 ```
