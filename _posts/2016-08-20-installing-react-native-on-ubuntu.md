@@ -5,20 +5,18 @@ date:   2016-08-20 09:00:01
 categories: setup
 ---
 
-Steps to configure React Native on Ubuntu 16
-
-These are the steps I followed, a full guide is here https://facebook.github.io/react-native/docs/getting-started.html
+These are the steps I followed to configure React Native on Ubuntu 16, a full guide is here https://facebook.github.io/react-native/docs/getting-started.html
 
 ## Install NodeJS (used 4.x LTS at the moment)
 
-```
+```console
 curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
 ## Install Java JDK 
 
-```
+```console
 sudo apt-get install openjdk-8-jdk
 ```
 
@@ -40,7 +38,7 @@ Also Launch the standalone SDK Manager from there, and check if the correspondin
 If these aren't present, react will trow errors asking for them. Like the one below.
 
 
-```
+```console
 * What went wrong:
 A problem occurred configuring project ':app'.
 > failed to find Build Tools revision 23.0.1
@@ -49,13 +47,13 @@ A problem occurred configuring project ':app'.
 
 ### Add Android SDK, and Android Studio to your path
 
-```
+```console
 sudo vi ~/.profile
 ```
 
 Add the following at the end of that file, and then restart your computer.
 
-```
+```console
 # add android SDK paths
 export ANDROID_HOME="$HOME/Android/Sdk"
 PATH="$HOME/android-studio/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
@@ -72,7 +70,7 @@ PATH variables: http://stackoverflow.com/a/4433551/763705
 
 Install some required packages first.
 
-```
+```console
 sudo apt-get install automake
 sudo apt-get install autoconf
 ```
@@ -80,7 +78,7 @@ sudo apt-get install autoconf
 ref: http://stackoverflow.com/a/33592274/763705
 
 
-```
+```console
 git clone https://github.com/facebook/watchman.git
 cd watchman
 git checkout v4.6.0  # the latest stable release
@@ -103,7 +101,7 @@ If you plan to make changes to Java code https://docs.gradle.org/2.9/userguide/g
 
 ## Install React native via npm
 
-```
+```console
 sudo npm install -g react-native-cli
 ```
 
@@ -124,7 +122,7 @@ And add a new device.
 
 ## (Optional) Test installation
 
-```
+```console
 react-native init AwesomeProject
 cd AwesomeProject
 react-native run-android
@@ -136,7 +134,7 @@ react-native run-android
 
 ## Solving errors later on
 
-```
+```console
 * What went wrong:
 Execution failed for task ':app:installDebug'.
 > com.android.builder.testing.api.DeviceException: Timeout getting device list.
