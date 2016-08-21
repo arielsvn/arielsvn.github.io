@@ -1,4 +1,5 @@
 name: Ariel Rodriguez, Software Engineer
+markdown: kramdown
 highlighter: pygments
 permalink: /articles/:title/
 exclude: [arielsvn.sublime-project, arielsvn.sublime-workspace]
