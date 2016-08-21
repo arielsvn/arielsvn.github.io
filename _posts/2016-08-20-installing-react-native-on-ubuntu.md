@@ -158,3 +158,49 @@ And also `react-native run-android` to run the app.
 
 
 
+## Installing an IDE: Nuclide
+
+Install Atom: https://atom.io/download/deb#atom-on-linux
+
+If after initializing atom gives an error:
+
+```
+ TypeError: Unable to watch path
+```
+
+then increase the number of files watched by inotify, and restart Atom. I used
+
+```
+echo 65536 | sudo tee -a /proc/sys/fs/inotify/max_user_watches
+```
+
+Install nuclide (it's an Atom package)
+
+```
+apm install nuclide
+```
+
+After opening Atom, also install the recomended packages. Go to *Packages > Settings View > Manage Packages*
+
+
+### Install Flow
+
+Instructions here: https://flowtype.org/docs/getting-started.html#installing-flow
+
+```
+touch .flowconfig
+sudo npm install -g flow-bin
+```
+
+Flow will be installed at `/usr/lib/node_modules/flow-bin`
+
+
+
+# Running the project from Nuclide
+
+Start the packager *Nuclide > React Native > Start Package*, and then from the console run:
+
+```
+react-native run-android
+```
+
