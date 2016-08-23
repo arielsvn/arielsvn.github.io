@@ -31,7 +31,9 @@ options = {
 
 This partial view can be rendered as usual, with the only difference that you can pass an additional object `options` and override each one of the values there.
 
+```
 <%= render 'partial_view_name', options: {styles: { main: stylesheet_url('other/main') }} %>
+```
 
-Note that you don't need to pass all the parameters, just the ones you need to change. As both hashes are merged using ![deep merge](http://apidock.com/rails/Hash/deep_merge).
+Note that you don't need to pass all the parameters, just the ones you need to change. As both hashes are merged using [deep merge](http://apidock.com/rails/Hash/deep_merge).
 
