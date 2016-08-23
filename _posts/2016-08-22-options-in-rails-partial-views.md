@@ -17,7 +17,7 @@ options = {
     list: stylesheet_url('external/list'),
     side: stylesheet_url('external/side'),
   }
-}.merge((defined?(options) && options) || {})
+}.deep_merge((defined?(options) && options) || {})
 %>
 
 <div>
@@ -31,7 +31,7 @@ options = {
 
 This partial view can be rendered as usual, with the only difference that you can pass an additional object `options` and override each one of the values there.
 
-```
+```erb
 <%= render 'partial_view_name', options: {styles: { main: stylesheet_url('other/main') }} %>
 ```
 
