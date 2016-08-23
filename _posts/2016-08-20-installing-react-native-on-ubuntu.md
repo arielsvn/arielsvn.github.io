@@ -20,7 +20,7 @@ sudo apt-get install -y nodejs
 sudo apt-get install openjdk-8-jdk
 ```
 
-> This throws a warning when you open Android Studio sugesting to install oracle JDK, but should be enough as I'm not planning to use it.
+> This throws a warning when you open Android Studio suggesting to install oracle JDK, but should be enough as I'm not planning to use it.
 
 ref: http://askubuntu.com/a/464894/62726
 

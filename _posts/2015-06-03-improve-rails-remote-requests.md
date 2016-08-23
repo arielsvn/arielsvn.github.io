@@ -5,7 +5,7 @@ date:   2015-06-03 09:00:01
 categories: rails, js
 ---
 
-When using Rails, it's extremelly convenient to use `:remote` requests. You can make any link or form to submit an ajax request with some data, out of the box, just adding a parameter to the `link_to` helper or other of the form elements.
+When using Rails, it's extremely convenient to use `:remote` requests. You can make any link or form to submit an ajax request with some data, out of the box, just adding a parameter to the `link_to` helper or other of the form elements.
 
 ```erb
 <%= link_to 'Delete', delete_path, remote: true %>
