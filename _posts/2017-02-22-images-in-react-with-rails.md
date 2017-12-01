@@ -5,7 +5,7 @@ date:   2017-02-25 09:00:01
 categories: rails, js, react, redux
 ---
 
-I'm not sure if it's a good idea to have a React app with Rails in the backend, with this combination there're a few issues arise... One of them is for example how to be able to reference images in the front-end.
+I'm not sure if it's a good idea to have a React app with Rails in the backend, because a few issues arise with this combination... One of them is for example how to be able to reference images in the front-end.
 
 In Rails all assets are precompiled when the app is deployed, and a hash is inserted in the name of the files. This has different advantages that are outlined [here](http://guides.rubyonrails.org/asset_pipeline.html#what-is-fingerprinting-and-why-should-i-care-questionmark); but also prevents us from knowing the final path of the files.
 
