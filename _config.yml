@@ -1,9 +1,27 @@
+---
+title: Arielsvn.Github.Io
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 name: Ariel Rodriguez, Software Engineer
 markdown: redcarpet
 highlighter: pygments
-permalink: /articles/:title/
-exclude: [arielsvn.sublime-project, arielsvn.sublime-workspace]
+permalink: "/articles/:title/"
+exclude:
+- arielsvn.sublime-project
+- arielsvn.sublime-workspace
 url: http://arielsvn.github.io
-include: ['_pages']
+include:
+- _pages
 redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+  extensions:
+  - no_intra_emphasis
+  - fenced_code_blocks
+  - autolink
+  - tables
+  - with_toc_data

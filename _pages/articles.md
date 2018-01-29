@@ -1,8 +1,8 @@
 ---
-layout: default
 title: Articles
+permalink: "/articles/"
+layout: default
 id: articles
-permalink: /articles/
 ---
 
 # Articles
