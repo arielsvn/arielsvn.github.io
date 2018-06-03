@@ -1,0 +1,46 @@
+---
+layout: basic
+title: Home
+---
+
+<div class="hero">
+    <div class="hero__image">
+        <img src="{{ site.baseurl }}/public/me.png" alt="Ariel Rodriguez Romero in St. Augustine, FL" />
+    </div>
+
+    {% include platforms.html className="hero__platforms" %}
+</div>
+
+<h1>Hi there! My name is Ariel Rodriguez Romero</h1>
+
+<p>I'm a Software Engineer based in Philadelphia. ...</p>
+
+<div class="divider"></div>
+
+<h2>Blog Posts</h2>
+
+<p>
+  I like to blog from time to time, mainly to practice my English skills. Most posts
+  are about technology, related to whatever I'm doing at that time. Let me know in the
+  comments if you find yourself reading anything or if you have some feedback. Thanks!
+</p>
+
+{% include post-list.html posts=paginator.posts %}
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
+{% endif %}
+
+{% include footer.html %}
+

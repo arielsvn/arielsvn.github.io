@@ -3,3 +3,5 @@ _site
 *.sublime-project
 *.sublime-workspace
 .idea
+
+.sass-cache/

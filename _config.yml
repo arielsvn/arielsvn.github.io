@@ -1,9 +1,36 @@
-name: Ariel Rodriguez, Software Engineer
-markdown: redcarpet
-highlighter: pygments
-permalink: /articles/:title/
-exclude: [arielsvn.sublime-project, arielsvn.sublime-workspace]
-url: http://arielsvn.github.io
-include: ['_pages']
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+# Permalinks
+permalink:           /blog/:slug-:year:output_ext
+
+# Setup
+title:               Ariel Rodriguez Romero
+tagline:             ""
+url:                 http://arielrodriguezromero.com
+paginate:            30
+baseurl:             ""
+
+analytics_id:        UA-92395425-1
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Ariel Rodriguez Romero
+  url:               http://arielrodriguezromero.com
+  email:             arielsvn@gmail.com
+
+social:
+  twitter: https://twitter.com/arielswn
+  orcid: https://orcid.org/0000-0003-2290-4927
+  linkedin: https://www.linkedin.com/in/ariel-rodriguez-romero-a8080837/
+  instagram: https://www.instagram.com/illogicalawesome/
+  github: https://github.com/arielsvn
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
