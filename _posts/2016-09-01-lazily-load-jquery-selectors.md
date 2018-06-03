@@ -1,8 +1,11 @@
 ---
+title: Lazily load jquery selectors
+date: 2016-09-01 09:00:01 Z
+categories:
+- js,
+- good
+- practices
 layout: post
-title:  "Lazily load jquery selectors"
-date:   2016-09-01 09:00:01
-categories: js, good practices
 ---
 
 It's a known bad practice to repeat in your code different calls to jquery with the same selector, so often the recommended way is to call those in a variable.But what happens when you want to refer to many different selectors??

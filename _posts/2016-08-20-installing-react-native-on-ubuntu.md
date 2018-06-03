@@ -1,8 +1,9 @@
 ---
+title: Installing React Native on Ubuntu 16
+date: 2016-08-20 09:00:01 Z
+categories:
+- setup
 layout: post
-title:  "Installing React Native on Ubuntu 16"
-date:   2016-08-20 09:00:01
-categories: setup
 ---
 
 These are the steps I followed to configure React Native on Ubuntu 16, a full guide is here https://facebook.github.io/react-native/docs/getting-started.html

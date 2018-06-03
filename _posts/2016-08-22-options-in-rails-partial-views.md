@@ -1,8 +1,9 @@
 ---
+title: Override-able options in rails partial view
+date: 2016-08-22 09:00:01 Z
+categories:
+- rails
 layout: post
-title:  "Override-able options in rails partial view"
-date:   2016-08-22 09:00:01
-categories: rails
 ---
 
 Sometimes you have partial views with static values that would be nice to change, but adding specific options for each one of them would be painful.
