@@ -1,5 +1,5 @@
 ---
-title: "Jekyll: Re-designing my personal blog."
+title: 'Jekyll: Re-designing my personal blog.'
 date: 2018-06-03 09:00:01 Z
 categories:
 - jekyll
