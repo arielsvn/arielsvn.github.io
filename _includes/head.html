@@ -3,6 +3,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index, follow">
 
+  {% if page.summary %}
+    <meta name="description" content="{{ page.summary }}">
+  {% else %}
+    <meta name="description" content="Ariel Rodriguez Romero is a Software Engineer based on Philadelphia. This is his personal website.">
+  {% endif %}
+  
+  <meta name="keywords" content="software engineer, programming, science, machine learning, blog, philadelphia">
+
   <title>
     {% if page.title == "Home" %}
       {% if site.tagline != "" %}
@@ -23,8 +31,6 @@
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
 
   <meta name="author" content="Ariel Rodriguez Romero">
-  <meta name="description" content="Ariel Rodriguez Romero is a Software Engineer based on Philadelphia. This is his personal website.">
-  <meta name="keywords" content="software engineer, programming, science, machine learning, blog, philadelphia">
 
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="website">
