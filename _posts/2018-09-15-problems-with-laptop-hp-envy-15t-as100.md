@@ -2,9 +2,9 @@
 title: Problems with my laptop HP Envy 15t-as100
 date: 2018-09-15 09:00:01 Z
 categories:
-- laptop
-- diy
-- repair
+  - laptop
+  - diy
+  - repair
 layout: post
 summary: My laptop died suddenly after 19 months, I tried to fix it. This is the story.
 ---
@@ -30,7 +30,9 @@ I found [this video](https://www.youtube.com/watch?v=2SWHOJNcFXk) with instructi
 Dissarming it wasn't easy, I did it very carefully. It was nice to see everything inside my laptop, I spent a lot of time working with it. Once I got the cover off, it was time to disconnect the battery.
 
 <center>
+<div class="post-video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dTZ57bxtETY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 </center><br/>
 
 Then I put everything together. I want to say this is a happy story, and that the laptop worked perfectly afterwards, but I'd be lying. I have to continue searching to see what else might be causing this. It seems to be related with power, I will try to get a multimeter and test the power supply to ensure that it's working first.
