@@ -1,6 +1,13 @@
-Ariel's personal blog
-====================
+# Ariel's personal blog
 
-The blog is hosted on http://arielrodriguezromero.com, its hosted on Github Pages and it uses Jeckyll to generate the HTML files.
+The blog http://arielrodriguezromero.com, hosted on Github Pages and uses Jeckyll to generate the HTML files.
 
-All posts are written as issues before being published.
+## Running Locally
+
+Run the following commands:
+
+```
+jekyll s
+```
+
+More info on how to [set up Jekyll with Github Pages](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/).
