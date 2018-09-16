@@ -2,9 +2,9 @@
 title: Problems with my laptop HP Envy 15t-as100
 date: 2018-09-15 09:00:01 Z
 categories:
-  - laptop
-  - diy
-  - repair
+- laptop
+- diy
+- repair
 layout: post
 summary: My laptop died suddenly after 19 months, I tried to fix it. This is the story.
 ---
