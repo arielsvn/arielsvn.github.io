@@ -19,15 +19,15 @@ It stopped working all of the sudden, I left it suspended and connected to the e
 
 I looked around, and it seems some laptops accumulate too much power and they don't turn on to protect the pieces. There're several videos online that recommend disconnecting the battery and the power supply and then press the power button for around one minute.
 
-Without a better solution, I wanted to give this a try. But there was a problem, my laptop **HP Envy model 15t-as100** has an internal battery. So it wasn't straightforward to dissconect it.
+Without a better solution, I wanted to give this a try. But there was a problem, my laptop **HP Envy model 15t-as100** has an internal battery. So it wasn't straightforward to disconnect it.
 
 Before proceeding I checked the warranty of the laptop, but had expired 7 months ago.
 
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/11kEuHSQAXXiGQ" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><br/>
 
-I found [this video](https://www.youtube.com/watch?v=2SWHOJNcFXk) with instructions on how to dissarm the laptop. HP used a screw that I had never seen before, similar to a star. Luckily I had [a toolset](https://www.amazon.com/gp/product/B01E16J6RQ) with that point.
+I found [this video](https://www.youtube.com/watch?v=2SWHOJNcFXk) with instructions on how to disarm the laptop. HP used a screw that I had never seen before, similar to a star. Luckily I had [a toolset](https://www.amazon.com/gp/product/B01E16J6RQ) with that point.
 
-Dissarming it wasn't easy, I did it very carefully. It was nice to see everything inside my laptop, I spent a lot of time working with it. Once I got the cover off, it was time to disconnect the battery.
+Disarming it wasn't easy, I did it very carefully. It was nice to see everything inside my laptop, I spent a lot of time working with it. Once I got the cover off, it was time to disconnect the battery.
 
 <center>
 <div class="post-video">
