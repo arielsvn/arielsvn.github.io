@@ -17,11 +17,11 @@ So I just said good bye to my laptop on instagram:
 
 It stopped working all of the sudden, I left it suspended and connected to the electricity one night, and the next morning it didn't want to turn on. There's a light that should indicate when it's connected to the power supply and even that doesn't work.
 
-I looked around, and it seems some laptops accumulate too much power and they don't turn on to protect the pieces. There're several videos online that recommend disconnecting the battery and the power supply and then press the power button for around one minute.
+I looked around, and it seems some laptops accumulate too much power and they don't turn on to protect the pieces. There are several videos online that recommend disconnecting the battery and the power supply and then press the power button for around one minute.
 
 Without a better solution, I wanted to give this a try. But there was a problem, my laptop **HP Envy model 15t-as100** has an internal battery. So it wasn't straightforward to disconnect it.
 
-Before proceeding I checked the warranty of the laptop, but had expired 7 months ago.
+Before proceeding I checked the warranty of the laptop. It had expired 7 months ago.
 
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/11kEuHSQAXXiGQ" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><br/>
 
@@ -35,4 +35,4 @@ Disarming it wasn't easy, I did it very carefully. It was nice to see everything
 </div>
 </center><br/>
 
-Then I put everything together. I want to say this is a happy story, and that the laptop worked perfectly afterwards, but I'd be lying. I have to continue searching to see what else might be causing this. It seems to be related with power, I will try to get a multimeter and test the power supply to ensure that it's working first.
+Then I put everything together. I would love to say this is a happy story, and that the laptop worked perfectly afterwards, but I'd be lying. I have to continue searching to see what else might be causing this. It seems to be related with power, I will try to get a multimeter and test the power supply to ensure that it's working first.
