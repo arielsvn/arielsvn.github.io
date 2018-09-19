@@ -9,9 +9,7 @@
 
         <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date post-list__date">{{ post.date | date_to_string }}</time>
 
-        {% if post.summary %}
-        <p>{{ post.summary | markdownify }}</p>
-        {% endif %}
+        {% if post.summary %} {{ post.summary | markdownify }} {% endif %}
     </div>
     {% endfor %}
 </div>
