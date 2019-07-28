@@ -7,6 +7,7 @@ The blog http://arielrodriguezromero.com, hosted on Github Pages and uses Jeckyl
 Run the following commands:
 
 ```
+bundle install
 jekyll s
 ```
 
