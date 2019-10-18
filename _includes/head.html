@@ -8,13 +8,13 @@
   {% else %}
     <meta name="description" content="Ariel Rodriguez Romero is a Software Engineer based on Philadelphia. This is his personal website.">
   {% endif %}
-  
+
   <meta name="keywords" content="software engineer, programming, science, machine learning, blog, philadelphia">
 
   <title>
     {% if page.title == "Home" %}
       {% if site.tagline != "" %}
-        {{ site.title }} &middot; {{ site.tagline }} 
+        {{ site.title }} &middot; {{ site.tagline }}
       {% else %}
         {{ site.title }}
       {% endif %}
@@ -36,7 +36,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Ariel Rodriguez Romero">
   <meta property="og:url" content="http://arielrodriguezromero.com">
-  <meta property="og:image" content>
+  {% if page.image %}<meta property="og:image" content="{{ page.image }}">{% endif %}
   <meta property="og:description" content="Ariel Rodriguez Romero is a Software Engineer based on Philadelphia. This is his personal website.">
 
   <meta itemscope="" itemtype="website">
