@@ -7,7 +7,7 @@ categories:
   - cuba
   - google flights
 layout: post
-summary:
+summary: Simple strategy to scrape information from google flights (with manual work). It's helpful if you don't need a lot of information.
 ---
 
 This next December (12/2019), the US government announced that they will ban flights from the US to all cities in Cuba except for the US.
