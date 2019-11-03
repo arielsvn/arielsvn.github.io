@@ -62,8 +62,8 @@ I used the [copy](https://scottwhittaker.net/chrome-devtools/2016/02/29/chrome-d
 
 There was some manual work involved to get the data using this strategy. Since I wanted to get information for 6 airports and 7 days. However, I'm sure that writing a scrapper would have taken me more time and this just involved calling `scrape()` 35 times.
 
-I liked the resulting data visualization, and it was a nice way to learn how to work with geodata and ggplot. I'll publish the code I used soon.
+I liked the resulting data visualization, and it was a nice way to learn how to work with geodata and ggplot. The entire notebook is published [here](http://arielrodriguezromero.com/cuba-plots/00-outgoing-flights.nb.html).
 
-Here's a higher resolution image of the flights coming out of Havana.
+The number of destinations from Havana impressed me.
 
 ![Havana flight](/assets/img/2019-11-02-havana-flights.png)
