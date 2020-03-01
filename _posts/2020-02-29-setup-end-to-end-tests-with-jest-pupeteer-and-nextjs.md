@@ -10,9 +10,9 @@ layout: post
 summary: This contains details and the configuration files required to setup `jest-pupeteer` for end-to-end testing in a `NextJS` app.
 ---
 
-Recently I started [migrating refinebio](https://github.com/AlexsLemonade/refinebio-frontend/pull/853) to [NextJS](https://nextjs.org/). It had originally been bootstrapped using [Create React App](https://create-react-app.dev/). There was one challenge that I couldn't found a lot of information online, and it was configuring end-to-end tests with [jest-pupetteer](https://github.com/smooth-code/jest-puppeteer). I'm going to write another blog posts about other problems that I had to solve to complete the migration.
+Recently I started [migrating refinebio](https://github.com/AlexsLemonade/refinebio-frontend/pull/853) to [NextJS](https://nextjs.org/). It had originally been bootstrapped using [Create React App](https://create-react-app.dev/). There was one challenge that I couldn't find a lot of information online, and it was configuring end-to-end tests with [jest-pupetteer](https://github.com/smooth-code/jest-puppeteer). I'm going to write another blog post about other problems that I had to solve to complete the migration.
 
-In order to run your tests with `jest-pupeteer` you need to configure 3 files. First be sure to have a script to run a development server in `packages.json`
+To run your tests with `jest-pupeteer` you need to configure 3 files. First, be sure to have a script to run a development server in `packages.json`
 
 ```js
 "scripts": {
