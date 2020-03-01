@@ -1,5 +1,5 @@
 ---
-title: Automatic scroll restoration in Single Page Applications (SPA)
+title: 😎 Automatic scroll restoration in Single Page Applications (SPA)
 date: 2019-01-31 09:00:01 Z
 categories:
   - react
