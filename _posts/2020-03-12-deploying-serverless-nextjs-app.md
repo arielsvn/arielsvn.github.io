@@ -6,7 +6,7 @@ categories:
   - nextjs
   - zeit
 layout: post
-summary:
+summary: We migrated to NextJS recently and started using ZEIT to deploy our frontend. We required some configuration and even found a bug on ZEIT's platform in the process.
 ---
 
 For a while, I have been wanting to try server-side rendering, specifically with [NextJS](https://nextjs.org/). Recently, a [big pull request](https://github.com/AlexsLemonade/refinebio-frontend/pull/853) landed in refinebio's repository with the entire migration.
